@@ -1,0 +1,32 @@
+[
+    {
+        "service": "Apache",
+        "version": "2.4.49",
+        "cve": "CVE-2021-41773",
+        "description": "Path traversal and file disclosure vulnerability."
+    },
+    {
+        "service": "Apache",
+        "version": "2.4.50",
+        "cve": "CVE-2021-42013",
+        "description": "Path traversal fix bypass."
+    },
+    {
+        "service": "OpenSSH",
+        "version": "7.6p1",
+        "cve": "CVE-2018-15473",
+        "description": "User enumeration vulnerability."
+    },
+    {
+        "service": "OpenSSH",
+        "version": "8.0p1",
+        "cve": "CVE-2019-6111",
+        "description": "Improper validation of SCP arguments."
+    },
+    {
+        "service": "nginx",
+        "version": "1.14.0",
+        "cve": "CVE-2019-9516",
+        "description": "HTTP/2 denial of service (0-RTT)."
+    }
+]
