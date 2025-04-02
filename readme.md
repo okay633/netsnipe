@@ -9,7 +9,7 @@ A penetration testing tool for network reconnaissance and vulnerability probing 
 - JSON output for automation and reporting
 
 ## Installation
-1. Clone this repo: `git clone https://github.com/yourusername/netsnipe.git`
+1. Clone this repo: `git clone https://github.com/okay633/netsnipe.git`
 2. Navigate to the directory: `cd netsnipe`
 3. Make the script executable: `chmod +x netsnipe.py`
 
