@@ -1,5 +1,5 @@
 # NetSnipe
-A production-ready pentest tool for network recon and vulnerability probing.
+Pentest tool for network recon and vulnerability probing.
 
 ## Features
 - Port scanning with stealth mode
