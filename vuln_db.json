@@ -3,30 +3,165 @@
         "service": "Apache",
         "version": "2.4.49",
         "cve": "CVE-2021-41773",
-        "description": "Path traversal and file disclosure vulnerability."
+        "description": "Path traversal and file disclosure vulnerability in Apache HTTP Server 2.4.49.",
+        "severity": "High",
+        "cvss_score": 7.5,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "Apache/2.4.49"
     },
     {
         "service": "Apache",
         "version": "2.4.50",
         "cve": "CVE-2021-42013",
-        "description": "Path traversal fix bypass."
+        "description": "Path traversal fix bypass in Apache HTTP Server 2.4.50.",
+        "severity": "High",
+        "cvss_score": 9.8,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "Apache/2.4.50"
     },
     {
         "service": "OpenSSH",
         "version": "7.6p1",
         "cve": "CVE-2018-15473",
-        "description": "User enumeration vulnerability."
+        "description": "User enumeration vulnerability in OpenSSH through username timing differences.",
+        "severity": "Medium",
+        "cvss_score": 5.3,
+        "exploitable": true,
+        "exploit_complexity": "Medium",
+        "signature": "SSH-2.0-OpenSSH_7.6"
     },
     {
         "service": "OpenSSH",
         "version": "8.0p1",
         "cve": "CVE-2019-6111",
-        "description": "Improper validation of SCP arguments."
+        "description": "Improper validation of SCP arguments allows file overwrite.",
+        "severity": "Medium",
+        "cvss_score": 5.9,
+        "exploitable": false,
+        "exploit_complexity": "High",
+        "signature": "SSH-2.0-OpenSSH_8.0"
     },
     {
         "service": "nginx",
         "version": "1.14.0",
         "cve": "CVE-2019-9516",
-        "description": "HTTP/2 denial of service (0-RTT)."
+        "description": "HTTP/2 denial of service vulnerability (0-RTT).",
+        "severity": "Medium",
+        "cvss_score": 6.5,
+        "exploitable": true,
+        "exploit_complexity": "Medium",
+        "signature": "nginx/1.14.0"
+    },
+    {
+        "service": "MySQL",
+        "version": "5.7.33",
+        "cve": "CVE-2021-2154",
+        "description": "Privilege escalation vulnerability in MySQL Server.",
+        "severity": "High",
+        "cvss_score": 8.8,
+        "exploitable": true,
+        "exploit_complexity": "Medium",
+        "signature": "mysql_native_password"
+    },
+    {
+        "service": "PostgreSQL",
+        "version": "12.6",
+        "cve": "CVE-2021-32027",
+        "description": "Buffer overflow vulnerability in ALTER TABLE command.",
+        "severity": "High",
+        "cvss_score": 8.8,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "PostgreSQL 12.6"
+    },
+    {
+        "service": "Redis",
+        "version": "6.0.10",
+        "cve": "CVE-2021-32625",
+        "description": "Integer overflow in STRALGO command implementation.",
+        "severity": "High",
+        "cvss_score": 8.8,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "Redis server"
+    },
+    {
+        "service": "IIS",
+        "version": "10.0",
+        "cve": "CVE-2021-31207",
+        "description": "Information disclosure vulnerability in Microsoft IIS.",
+        "severity": "Medium",
+        "cvss_score": 5.3,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "Microsoft-IIS/10.0"
+    },
+    {
+        "service": "vsftpd",
+        "version": "3.0.3",
+        "cve": "CVE-2021-3618",
+        "description": "Directory traversal vulnerability in vsftpd.",
+        "severity": "High",
+        "cvss_score": 7.5,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "vsftpd 3.0.3"
+    },
+    {
+        "service": "Samba",
+        "version": "4.13.3",
+        "cve": "CVE-2021-20254",
+        "description": "Buffer overflow in Samba AD DC LDAP server.",
+        "severity": "High",
+        "cvss_score": 8.8,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "Samba 4.13.3"
+    },
+    {
+        "service": "Postfix",
+        "version": "3.5.8",
+        "cve": "CVE-2021-38394",
+        "description": "SMTP smuggling vulnerability in Postfix.",
+        "severity": "Medium",
+        "cvss_score": 6.5,
+        "exploitable": true,
+        "exploit_complexity": "Medium",
+        "signature": "Postfix"
+    },
+    {
+        "service": "Dovecot",
+        "version": "2.3.13",
+        "cve": "CVE-2021-29157",
+        "description": "IMAP hibernation vulnerability in Dovecot.",
+        "severity": "Medium",
+        "cvss_score": 5.4,
+        "exploitable": true,
+        "exploit_complexity": "Medium",
+        "signature": "Dovecot"
+    },
+    {
+        "service": "Elasticsearch",
+        "version": "7.10.0",
+        "cve": "CVE-2021-22134",
+        "description": "Information disclosure in Elasticsearch.",
+        "severity": "Medium",
+        "cvss_score": 5.3,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "Elasticsearch"
+    },
+    {
+        "service": "MongoDB",
+        "version": "4.4.3",
+        "cve": "CVE-2021-20329",
+        "description": "Server-side request forgery in MongoDB.",
+        "severity": "High",
+        "cvss_score": 7.5,
+        "exploitable": true,
+        "exploit_complexity": "Low",
+        "signature": "MongoDB"
     }
 ]
